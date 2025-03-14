@@ -1,0 +1,26 @@
+/* light-theme.css */
+.root {
+    -fx-background-color: #ffffff;
+}
+
+.grille-canvas {
+    -fx-background-color: #f0f0f0;
+}
+
+.menu-bar {
+    -fx-background-color: #f8f9fa;
+}
+
+.sidebar {
+    -fx-background-color: #f8f9fa;
+    -fx-border-color: #dee2e6;
+}
+
+.button {
+    -fx-background-color: #e9ecef;
+    -fx-text-fill: #212529;
+}
+
+.button:hover {
+    -fx-background-color: #dee2e6;
+}

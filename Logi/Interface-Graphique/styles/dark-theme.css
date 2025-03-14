@@ -1,0 +1,47 @@
+
+/* dark-theme.css */
+.root {
+    -fx-background-color: #1a1a1a;
+}
+
+.grille-canvas {
+    -fx-background-color: #2d2d2d;
+}
+
+.menu-bar {
+    -fx-background-color: #333333;
+}
+
+.menu-bar .menu .label {
+    -fx-text-fill: #ffffff;
+}
+
+.menu-item {
+    -fx-background-color: #333333;
+}
+
+.menu-item .label {
+    -fx-text-fill: #ffffff;
+}
+
+.menu-item:hover {
+    -fx-background-color: #454545;
+}
+
+.sidebar {
+    -fx-background-color: #333333;
+    -fx-border-color: #454545;
+}
+
+.button {
+    -fx-background-color: #454545;
+    -fx-text-fill: #ffffff;
+}
+
+.button:hover {
+    -fx-background-color: #555555;
+}
+
+.label {
+    -fx-text-fill: #ffffff;
+}

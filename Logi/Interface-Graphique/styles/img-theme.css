@@ -1,0 +1,33 @@
+/* Le fond du ToggleButton (l'arrière-plan du switch) */
+.toggle-button {
+    -fx-background-color: #ccc;
+    -fx-background-radius: 50px; /* Pour rendre l'arrière-plan circulaire */
+    -fx-padding: 3px; /* Espacement pour que le bouton ne soit pas trop large */
+    -fx-pref-width: 60px; /* Largeur du switch */
+    -fx-pref-height: 30px; /* Hauteur du switch */
+    -fx-border-radius: 50px; /* Arrondir les bords */
+    -fx-border-color: #888;
+    -fx-border-width: 1px;
+    -fx-transition: 0.3s ease; /* Transition douce lors du changement d'état */
+}
+
+/* Lorsqu'il est sélectionné (c'est-à-dire quand le switch est activé) */
+.toggle-button:selected {
+    -fx-background-color: #4caf50; /* Couleur verte pour simuler l'état activé */
+}
+
+/* Le cercle (thumb) à l'intérieur du bouton */
+.toggle-button .thumb {
+    -fx-background-color: white; /* Couleur du cercle */
+    -fx-background-radius: 50%; /* Rendre le cercle bien rond */
+    -fx-pref-width: 22px; /* Taille du cercle */
+    -fx-pref-height: 22px;
+    -fx-translate-x: 0; /* Position initiale du cercle (à gauche) */
+    -fx-translate-y: 4px; /* Centrer le cercle verticalement dans le bouton */
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.3), 2, 0, 0, 1); /* Ombre pour l'effet visuel */
+}
+
+/* Lorsqu'il est sélectionné, déplace le cercle à droite */
+.toggle-button:selected .thumb {
+    -fx-translate-x: 30px; /* Déplace le cercle à droite */
+}
